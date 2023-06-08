@@ -33,6 +33,7 @@
             this.btnFindFile = new System.Windows.Forms.Button();
             this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
             this.binaryItemList = new System.Windows.Forms.ListBox();
+            this.txttextTest = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // txtPathFile
@@ -76,11 +77,19 @@
             this.binaryItemList.Size = new System.Drawing.Size(512, 264);
             this.binaryItemList.TabIndex = 5;
             // 
+            // txttextTest
+            // 
+            this.txttextTest.Location = new System.Drawing.Point(164, 13);
+            this.txttextTest.Name = "txttextTest";
+            this.txttextTest.Size = new System.Drawing.Size(512, 20);
+            this.txttextTest.TabIndex = 6;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.txttextTest);
             this.Controls.Add(this.binaryItemList);
             this.Controls.Add(this.btnFindFile);
             this.Controls.Add(this.btnReadFile);
@@ -99,6 +108,7 @@
         private System.Windows.Forms.Button btnFindFile;
         private System.Windows.Forms.OpenFileDialog openFileDialog1;
         private System.Windows.Forms.ListBox binaryItemList;
+        private System.Windows.Forms.TextBox txttextTest;
     }
 }
 
